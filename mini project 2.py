@@ -1,20 +1,20 @@
 #create an empty list
 services = []
 
-#add services
+#Populate the list using append
 services.append("RDS")
 services.append("DynamoDB")
 services.append("Cloudfront")
 services.append("VPC")
 
-#print services and length
+#Print the list and the length of the list
 print(services)
 print(len(services))
 
-#remove two services
+#Remove two specific services from the list by name
 services.remove("RDS")
 services.remove("DynamoDB")
 
-#print new services
+#Print the new list and the new length of the list
 print(services)
 print(len(services))
